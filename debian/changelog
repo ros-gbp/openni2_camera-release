@@ -1,0 +1,67 @@
+ros-jade-openni2-camera (0.2.5-0utopic) utopic; urgency=high
+
+  * Merge pull request #34 <https://github.com/ros-drivers/openni2_camera/issues/34> from Intermodalics/feature/get_serial_service
+    added get_serial service
+  * Contributors: Michael Ferguson, Ruben Smits
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Thu, 15 Oct 2015 07:00:00 -0000
+
+ros-jade-openni2-camera (0.2.4-0utopic) utopic; urgency=high
+
+  * proper usage of device_id parameter in resolveDeviceURI, resolve unique parts of device URIs, too
+  * print vendor id and product id as hex value (like in lsusb)
+  * Contributors: Michael Ferguson, Stephan Wirth
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Mon, 06 Apr 2015 07:00:00 -0000
+
+ros-jade-openni2-camera (0.2.3-0utopic) utopic; urgency=high
+
+  * Explicitly ask for serial number when trying to resolve device URI instead of doing it once on device connected, fixes #24 <https://github.com/ros-drivers/openni2_camera/issues/24>
+  * Contributors: Michael Ferguson, Stephan Wirth
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Fri, 16 Jan 2015 08:00:00 -0000
+
+ros-jade-openni2-camera (0.2.2-0utopic) utopic; urgency=high
+
+  * Add usb_reset
+  * Contributors: Kei Okada, Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Mon, 06 Oct 2014 07:00:00 -0000
+
+ros-jade-openni2-camera (0.2.1-0utopic) utopic; urgency=high
+
+  * Fixed a bug that prevents depth only sensors from properly calculating the point cloud due to incorrect focal length
+  * Updated cmakelists for OSX
+  * Contributors: Colin Lea, Michael Ferguson, Tarek Taha
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Fri, 22 Aug 2014 07:00:00 -0000
+
+ros-jade-openni2-camera (0.2.0-0utopic) utopic; urgency=high
+
+  * device_id: find camera by serial number
+  * Make freenect_stack link a real link for wiki.
+  * Contributors: Dariush Forouher, Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Thu, 22 May 2014 07:00:00 -0000
+
+ros-jade-openni2-camera (0.1.2-0utopic) utopic; urgency=high
+
+  * Fix CMake error.
+  * Contributors: Benjamin Chretien, Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Mon, 03 Feb 2014 08:00:00 -0000
+
+ros-jade-openni2-camera (0.1.1-0utopic) utopic; urgency=high
+
+  * Fixed default value of ir_mode. Thanks @nxdefiant
+    https://github.com/ros-drivers/openni2_camera/issues/16
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Wed, 13 Nov 2013 08:00:00 -0000
+
+ros-jade-openni2-camera (0.1.0-0utopic) utopic; urgency=high
+
+  * initial release
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Wed, 28 Aug 2013 07:00:00 -0000
+
+
