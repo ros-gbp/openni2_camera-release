@@ -1,0 +1,25 @@
+From d541d04f9a2eda4cf963510f975b3d308d329dc9 Mon Sep 17 00:00:00 2001
+From: Tully Foote <tfoote@osrfoundation.org>
+Date: Thu, 19 May 2016 17:13:14 -0700
+Subject: [PATCH] work around dh_shlibdeps error
+
+---
+ debian/rules | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/debian/rules b/debian/rules
+index fcda503..77f30db 100755
+--- a/debian/rules
++++ b/debian/rules
+@@ -52,7 +52,7 @@ override_dh_shlibdeps:
+ 	# in the install tree that was dropped by catkin, and source it.  It will
+ 	# set things like CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+ 	if [ -f "/opt/ros/kinetic/setup.sh" ]; then . "/opt/ros/kinetic/setup.sh"; fi && \
+-	dh_shlibdeps -l$(CURDIR)/debian/ros-kinetic-openni2-camera//opt/ros/kinetic/lib/
++	dh_shlibdeps -l$(CURDIR)/debian/ros-kinetic-openni2-camera//opt/ros/kinetic/lib/ -l/usr/lib/OpenNI2/Drivers/
+ 
+ override_dh_auto_install:
+ 	# In case we're installing to a non-standard location, look for a setup.sh
+-- 
+1.9.1
+
