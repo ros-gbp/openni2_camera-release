@@ -1,3 +1,26 @@
+## openni2_camera (jade) - 0.2.7-0
+
+The packages in the `openni2_camera` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade openni2_camera` on `Tue, 07 Jun 2016 16:23:10 -0000`
+
+The `openni2_camera` package was released.
+
+Version of package(s) in repository `openni2_camera`:
+
+- upstream repository: https://github.com/ros-drivers/openni2_camera.git
+- release repository: https://github.com/ros-gbp/openni2_camera-release.git
+- rosdistro version: `0.2.6-0`
+- old version: `0.2.6-0`
+- new version: `0.2.7-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.7`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.4`
+- vcstools version: `0.1.36`
+
+
 ## openni2_camera (indigo) - 0.2.7-0
 
 The packages in the `openni2_camera` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo openni2_camera` on `Tue, 07 Jun 2016 16:21:09 -0000`
