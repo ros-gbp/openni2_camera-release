@@ -1,4 +1,4 @@
-From d541d04f9a2eda4cf963510f975b3d308d329dc9 Mon Sep 17 00:00:00 2001
+From d7a532268a06e48923796ad7edc2b1f3b021b3ee Mon Sep 17 00:00:00 2001
 From: Tully Foote <tfoote@osrfoundation.org>
 Date: Thu, 19 May 2016 17:13:14 -0700
 Subject: [PATCH] work around dh_shlibdeps error
