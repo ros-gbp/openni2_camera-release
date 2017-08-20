@@ -190,6 +190,7 @@ void OpenNI2Driver::configCb(Config &config, uint32_t level)
 
   auto_exposure_ = config.auto_exposure;
   auto_white_balance_ = config.auto_white_balance;
+  exposure_ = config.exposure;
 
   use_device_time_ = config.use_device_time;
 
@@ -298,6 +299,16 @@ void OpenNI2Driver::applyConfigToOpenNIDevice()
   catch (const OpenNI2Exception& exception)
   {
     ROS_ERROR("Could not set auto white balance. Reason: %s", exception.what());
+  }
+
+  try
+  {
+    if (!config_init_ || (old_config_.exposure != exposure_))
+      device_->setExposure(exposure_);
+  }
+  catch (const OpenNI2Exception& exception)
+  {
+    ROS_ERROR("Could not set exposure. Reason: %s", exception.what());
   }
 
   device_->setUseDeviceTimer(use_device_time_);
@@ -652,7 +663,7 @@ std::string OpenNI2Driver::resolveDeviceURI(const std::string& device_id) throw(
     if (index >= device_id.size() - 1)
     {
       THROW_OPENNI_EXCEPTION(
-        "%s is not a valid device URI, you must give a number after the @, specify 0 for first device",
+        "%s is not a valid device URI, you must give the device number after the @, specify 0 for any device on this bus",
         device_id.c_str());
     }
 
@@ -671,8 +682,9 @@ std::string OpenNI2Driver::resolveDeviceURI(const std::string& device_id) throw(
       if (s.find(bus) != std::string::npos)
       {
         // this matches our bus, check device number
-        --device_number;
-        if (device_number <= 0)
+        std::ostringstream ss;
+        ss << bus << '/' << device_number;
+        if (device_number == 0 || s.find(ss.str()) != std::string::npos)
           return s;
       }
     }
@@ -716,10 +728,11 @@ std::string OpenNI2Driver::resolveDeviceURI(const std::string& device_id) throw(
         }
       }
     }
-    return matched_uri;
+    if (match_found)
+      return matched_uri;
+    else
+      return "INVALID";
   }
-
-  return "INVALID";
 }
 
 void OpenNI2Driver::initDevice()
