@@ -1,4 +1,4 @@
-From d7a532268a06e48923796ad7edc2b1f3b021b3ee Mon Sep 17 00:00:00 2001
+From d7830e1cd2f0671e0f0f686ed9a9b1f4a5f066fe Mon Sep 17 00:00:00 2001
 From: Tully Foote <tfoote@osrfoundation.org>
 Date: Thu, 19 May 2016 17:13:14 -0700
 Subject: [PATCH] work around dh_shlibdeps error
@@ -21,5 +21,5 @@ index fcda503..77f30db 100755
  override_dh_auto_install:
  	# In case we're installing to a non-standard location, look for a setup.sh
 -- 
-1.9.1
+2.7.4
 
