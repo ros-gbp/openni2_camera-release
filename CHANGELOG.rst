@@ -2,6 +2,10 @@
 Changelog for package openni2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2017-11-03)
+------------------
+
+
 0.2.9 (2017-10-25)
 ------------------
 * [fix] Device re-connection `#53 <https://github.com/ros-drivers/openni2_camera/issues/53>`_
