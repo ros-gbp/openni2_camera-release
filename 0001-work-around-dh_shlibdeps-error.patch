@@ -1,4 +1,4 @@
-From 1f0d108e5aba85556666f8392826407fbadba73b Mon Sep 17 00:00:00 2001
+From 456d7189d5e9bf124da83642f5c9d02f9f2c707c Mon Sep 17 00:00:00 2001
 From: Tully Foote <tfoote@osrfoundation.org>
 Date: Thu, 19 May 2016 17:13:14 -0700
 Subject: [PATCH] work around dh_shlibdeps error
@@ -8,10 +8,10 @@ Subject: [PATCH] work around dh_shlibdeps error
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/debian/rules b/debian/rules
-index fcda503..77f30db 100755
+index 46615a1..147f86c 100755
 --- a/debian/rules
 +++ b/debian/rules
-@@ -52,7 +52,7 @@ override_dh_shlibdeps:
+@@ -51,7 +51,7 @@ override_dh_shlibdeps:
  	# in the install tree that was dropped by catkin, and source it.  It will
  	# set things like CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
  	if [ -f "/opt/ros/kinetic/setup.sh" ]; then . "/opt/ros/kinetic/setup.sh"; fi && \
@@ -21,5 +21,5 @@ index fcda503..77f30db 100755
  override_dh_auto_install:
  	# In case we're installing to a non-standard location, look for a setup.sh
 -- 
-1.9.1
+2.7.4
 
