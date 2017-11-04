@@ -1,3 +1,28 @@
+## openni2_camera (kinetic) - 0.3.0-0
+
+The packages in the `openni2_camera` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic openni2_camera` on `Sat, 04 Nov 2017 03:30:45 -0000`
+
+These packages were released:
+- `openni2_camera`
+- `openni2_launch`
+
+Version of package(s) in repository `openni2_camera`:
+
+- upstream repository: https://github.com/ros-drivers/openni2_camera.git
+- release repository: https://github.com/ros-gbp/openni2_camera-release.git
+- rosdistro version: `0.2.9-0`
+- old version: `0.2.9-0`
+- new version: `0.3.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.1`
+- catkin_pkg version: `0.3.9`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## openni2_camera (lunar) - 0.3.0-0
 
 The packages in the `openni2_camera` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --rosdistro lunar --track lunar openni2_camera` on `Sat, 04 Nov 2017 03:18:04 -0000`
