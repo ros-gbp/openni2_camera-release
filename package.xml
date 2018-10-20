@@ -1,6 +1,6 @@
 <package>
   <name>openni2_launch</name>
-  <version>0.4.0</version>
+  <version>0.4.1</version>
   <description>
     Launch files to start the openni2_camera drivers using rgbd_launch.
   </description>
@@ -12,6 +12,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>python-catkin-pkg</build_depend>
+  <build_depend>roslaunch</build_depend>  <!-- For launch check -->
   <run_depend>rgbd_launch</run_depend>
   <run_depend>depth_image_proc</run_depend>
   <run_depend>image_proc</run_depend>
