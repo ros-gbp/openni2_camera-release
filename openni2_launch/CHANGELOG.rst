@@ -2,6 +2,18 @@
 Changelog for package openni2_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2018-10-20)
+------------------
+* [fix] [roswtf plugin] Accept vendor and product IDs (fix `#88 <https://github.com/ros-drivers/openni2_camera/issues/88>`_).
+* [improve] Remove unused ROS Parameters. `#76 <https://github.com/ros-drivers/openni2_camera/issues/76>`_
+* [improve] Add roslaunch check.
+* Contributors: Isaac I.Y. Saito
+
+0.4.0 (2018-07-17)
+------------------
+* Add a simple roswtf plugin. `#80 <https://github.com/ros-drivers/openni2_camera/issues/80>`_
+* Contributors: Isaac I.Y. Saito, PlusOne Robotics Inc.
+
 0.3.0 (2017-11-03)
 ------------------
 * Move openni2_launch package into openni2_camera repository `#55 <https://github.com/ros-drivers/openni2_camera/issues/55>`_
