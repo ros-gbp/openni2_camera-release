@@ -1,3 +1,28 @@
+## openni2_camera (melodic) - 0.4.2-0
+
+The packages in the `openni2_camera` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic openni2_camera` on `Sun, 02 Dec 2018 01:05:06 -0000`
+
+These packages were released:
+- `openni2_camera`
+- `openni2_launch`
+
+Version of package(s) in repository `openni2_camera`:
+
+- upstream repository: https://github.com/ros-drivers/openni2_camera.git
+- release repository: https://github.com/ros-gbp/openni2_camera-release.git
+- rosdistro version: `0.4.1-0`
+- old version: `0.4.1-0`
+- new version: `0.4.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.9`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.13.0`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## openni2_camera (melodic) - 0.4.1-0
 
 The packages in the `openni2_camera` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic openni2_camera` on `Sat, 20 Oct 2018 08:57:40 -0000`
