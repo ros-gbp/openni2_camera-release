@@ -1,0 +1,12 @@
+Source: ros-lunar-openni2-launch
+Section: misc
+Priority: extra
+Maintainer: Isaac I. Y. Saito <isaac.saito@plusonerobotics.com>
+Build-Depends: debhelper (>= 9.0.0), python-catkin-pkg, ros-lunar-catkin, ros-lunar-roslaunch
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-openni2-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-depth-image-proc, ros-lunar-image-proc, ros-lunar-nodelet, ros-lunar-openni2-camera, ros-lunar-rgbd-launch, ros-lunar-rospy, ros-lunar-roswtf, ros-lunar-tf, usbutils
+Description: Launch files to start the openni2_camera drivers using rgbd_launch.
