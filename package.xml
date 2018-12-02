@@ -1,6 +1,6 @@
 <package>
   <name>openni2_launch</name>
-  <version>0.4.1</version>
+  <version>0.4.2</version>
   <description>
     Launch files to start the openni2_camera drivers using rgbd_launch.
   </description>
@@ -21,6 +21,7 @@
   <run_depend>rospy</run_depend>
   <run_depend>roswtf</run_depend>  
   <run_depend>tf</run_depend>
+  <run_depend>usbutils</run_depend>
   <export>
     <rosdoc config="rosdoc.yaml"/>  
     <roswtf plugin="openni2_launch.wtf_plugin" />    
