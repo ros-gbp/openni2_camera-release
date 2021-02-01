@@ -2,6 +2,9 @@
 Changelog for package openni2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.1 (2021-02-01)
+------------------
+
 1.5.0 (2021-01-12)
 ------------------
 * [capability] Use serialnumber in camera names `#101 <https://github.com/ros-drivers/openni2_camera/issues/101>`_
