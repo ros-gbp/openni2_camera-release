@@ -1,1 +1,1 @@
-{"base": "ac5a394", "parent": "debian/noetic/openni2_camera", "previous": "706927e", "trim": "", "trimbase": ""}
+{"trim": "", "base": "48053d7", "trimbase": "", "parent": "debian/noetic/openni2_camera", "previous": "3553b72"}
