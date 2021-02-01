@@ -2,6 +2,17 @@
 Changelog for package openni2_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.1 (2021-02-01)
+------------------
+
+1.5.0 (2021-01-12)
+------------------
+* [capability] Use serialnumber in camera names `#101 <https://github.com/ros-drivers/openni2_camera/issues/101>`_
+* Release for Noetic `#98 <https://github.com/ros-drivers/openni2_camera/issues/98>`_
+
+1.4.2 (2020-06-03)
+------------------
+
 0.4.2 (2018-12-01)
 ------------------
 
