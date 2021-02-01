@@ -2,6 +2,21 @@
 Changelog for package openni2_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.5.1 (2021-02-01)
+------------------
+* Default branch update for ROS1 development.
+* [CI] Add GitHub Actions configs
+
+1.5.0 (2021-01-12)
+------------------
+* [capability] Use serialnumber in camera names `#101 <https://github.com/ros-drivers/openni2_camera/issues/101>`_
+* Release for Noetic `#98 <https://github.com/ros-drivers/openni2_camera/issues/98>`_
+
+1.4.2 (2020-06-03)
+------------------
+* update package.xml for noetic support
+* Contributors: Michael Ferguson
+
 0.4.2 (2018-12-01)
 ------------------
 * Fix roswtf plugin dependency `#92 <https://github.com/ros-drivers/openni2_camera/issues/92>`_
