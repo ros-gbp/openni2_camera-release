@@ -1,3 +1,28 @@
+## openni2_camera (noetic) - 1.6.1-1
+
+The packages in the `openni2_camera` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic openni2_camera` on `Wed, 25 Oct 2023 15:30:03 -0000`
+
+These packages were released:
+- `openni2_camera`
+- `openni2_launch`
+
+Version of package(s) in repository `openni2_camera`:
+
+- upstream repository: https://github.com/ros-drivers/openni2_camera.git
+- release repository: https://github.com/ros-gbp/openni2_camera-release.git
+- rosdistro version: `1.6.0-1`
+- old version: `1.6.0-1`
+- new version: `1.6.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## openni2_camera (noetic) - 1.6.0-1
 
 The packages in the `openni2_camera` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic openni2_camera --edit` on `Tue, 12 Apr 2022 10:30:21 -0000`
